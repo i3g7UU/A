@@ -1,7 +1,7 @@
 fetch("https://api.github.com/repos/i3g7UU/A/contents/log.txt", {
   method: "GET",
   headers: {
-    "Authorization": "token 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",
+    "Authorization": "token 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",
     "Accept": "application/vnd.github.v3+json"
   }
 })
@@ -13,7 +13,7 @@ fetch("https://api.github.com/repos/i3g7UU/A/contents/log.txt", {
   return fetch("https://api.github.com/repos/i3g7UU/A/contents/log.txt", {
     method: "PUT",
     headers: {
-      "Authorization": "token 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",
+      "Authorization": "token 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",
       "Accept": "application/vnd.github.v3+json"
     },
     body: JSON.stringify({
